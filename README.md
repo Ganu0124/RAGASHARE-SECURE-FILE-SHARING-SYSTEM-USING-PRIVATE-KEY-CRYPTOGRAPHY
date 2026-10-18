@@ -16,6 +16,10 @@
     <a href="#run-tests">Tests</a> ·
     <a href="#install-on-a-device">Install App</a>
   </p>
+  <p>
+    <strong>Created by Ganesh M</strong> ·
+    <a href="https://github.com/Ganu0124">GitHub Profile</a>
+  </p>
 </div>
 
 What is RagaShare?
@@ -43,6 +47,22 @@ Table of Contents
 - Troubleshooting
 - GitHub Setup
 - Documentation and References
+- Project Author and Contact
+Project Author and Contact
+RagaShare is developed as a Web Application Security project. Update the LinkedIn and email fields below with your preferred public contact details before publishing the repository.
+Detail	Information
+Author	Ganesh M
+Programme	MCA, Artificial Intelligence & Data Science
+Institution	Amrita Vishwa Vidyapeetham, Mysuru Campus
+GitHub	Ganu0124
+LinkedIn	Add your LinkedIn profile URL here
+Email	Add your public contact email here
+Project	RagaShare, Secure File Sharing System Using Private-Key Cryptography
+Academic year	2026–2027
+
+
+Before making the repository public, replace the LinkedIn and email placeholders with contact details you are comfortable sharing publicly. Do not publish a private or institution-only email without checking its intended use.
+
 Key Features
 Area	What it does
 Accounts	Register, sign in, sign out, and update display name
@@ -59,27 +79,24 @@ Device support	Responsive layout for laptop, desktop, tablet, and supported mobi
 
 Current upload allowlist: PDF, TXT, PNG, JPG/JPEG, DOCX, XLSX, CSV. The default maximum upload size is 10 MB.
 Screenshots
-The images below document supplied RagaShare interface states. They are screenshots of the project UI, not independent evidence of cryptographic correctness or access-control testing.
-<table>
-  <tr>
-    <td width="50%"><strong>Workspace overview</strong><br><img src="assets/screenshots/dashboard.png" alt="RagaShare workspace overview dashboard" width="100%"></td>
-    <td width="50%"><strong>My Files</strong><br><img src="assets/screenshots/my-files.png" alt="RagaShare file library" width="100%"></td>
-  </tr>
-  <tr>
-    <td width="50%"><strong>Upload interface</strong><br><img src="assets/screenshots/upload.png" alt="RagaShare upload page" width="100%"></td>
-    <td width="50%"><strong>Shared With Me</strong><br><img src="assets/screenshots/shared-with-me.png" alt="RagaShare incoming share page" width="100%"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Install on supported devices</strong><br><img src="assets/screenshots/install-app.png" alt="RagaShare PWA install instructions for desktop, Android and iPhone" width="100%"></td>
-  </tr>
-</table>
+Important: GitHub renders images only when the image files are also committed to the repository. Keep the assets folder beside this README.md. Do not upload the README alone. Preserve the filenames and capitalization shown below.
+Workspace overview
 
+My Files
+
+Upload interface
+
+Shared With Me
+
+Install app
+
+Reference browser-encryption architecture
+
+These are supplied project screenshots and reference material. They document visible design states. They do not independently prove cryptographic correctness or successful security testing.
 Animated Workflow
-The animation runs through all eight steps. The highlighted card marks the current stage and the moving packet follows the flow. This diagram represents the current server-managed implementation.
-<p align="center">
-  <img src="assets/ragashare-workflow.gif" alt="Animated eight-step RagaShare file sharing workflow" width="100%">
-</p>
+The following GIF animates the eight main stages of the server-managed file-sharing workflow. GitHub supports animated GIFs in repository Markdown. Keep the GIF at the path shown below.
 
+If the animation does not appear, open assets/ragashare-workflow.gif in the repository to confirm it was uploaded. Then check the filename's exact capitalization and spelling.
 Workflow diagram (static fallback)
 ```mermaid
 flowchart TD
@@ -368,7 +385,7 @@ If origin already exists, inspect it first with git remote -v rather than adding
 git add README.md assets/
 git commit -m "Document RagaShare workflow with animated diagram"
 git push
-GitHub displays the GIF when the repository-relative image path is preserved. Keep assets/ragashare-workflow.gif in the repository; moving or renaming the file requires updating the Markdown image path.
+GitHub displays images when the complete assets/ directory is committed beside this README.md. Commit the screenshots and GIF with git add README.md assets/, then push. Relative paths are case-sensitive on GitHub, so preserve every folder and filename exactly.
 Documentation and References
 Project documentation is available in [`docs/`](docs/):
 - [Architecture](docs/architecture.md)
